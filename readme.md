@@ -40,9 +40,9 @@ Aşağıda istenilen sonuçlara ulaşabilmek için gerekli SQL sorgularını alt
 
     4) Öğrenci tablosunda kaydı bulunan sınıfların adını her sınıf bir kez görüntülenecek şekilde listeleyiniz
 
-    	**select distinct sinif from ogrenci
+    	**select distinct sinif from ogrenci**
 
-\*\* 5) Öğrenci tablosunda, 10A sınıfında olan kız öğrencileri listeleyiniz.
+    5) Öğrenci tablosunda, 10A sınıfında olan kız öğrencileri listeleyiniz.
 
     	**select * from ogrenci where cinsiyet ="K" and sinif="10A"**
 
